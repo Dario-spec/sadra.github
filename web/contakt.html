@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dario Stankovski</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #222;" >
+       <div class="conhead">
+        <style>
+            *{padding: 0;margin: 0;}
+         ul li{ margin-left: 30px; list-style: none;display: inline;padding: 3px;line-height: 80px;}
+         ul li a{text-decoration: none;color: #fff;} 
+         #ul #li #a{padding: 8px 8px 8px 64px;text-decoration: none;font-size: 20px;color: #999;}
+         #ul #li{display: block;list-style: none;}
+         .menu{  position: fixed;top: 0px;left: 0px;height: 100%;width: 0px;background-color: #222;z-index: 1; padding-top: 100px;
+         overflow-x: hidden;transition: all .5s;}
+         .mainbox{ background-color: black;color: #fff;width: 33px;height: 50px; display: none;cursor: pointer; font-size: 36px;position: absolute;top: 0;left: 0;}
+          .closebtn{position: absolute;top: 0px;right: 25px;font-size: 36px;margin-left: 32px;}
+         @media(max-width:952px) {nav{display: none;}}
+         @media(max-width:952px) {.mainbox{display: block;}}
+         @media(max-width:1030px) {.mainbox{display: block;}}
+         @media(max-width:1030px) {#sta{display: block;}}
+         @media(max-width:952px) {#daam{display: block;}}
+        </style>
+         
+          <div onclick="openFunction()" class="mainbox" id="mainbox">&#9776; </div>
+          <div class="menu" id="menu">
+            <div class="logo">
+                <img src="me.jpg" width="100px"height="100px" class="logo1" alt="">
+            </div>
+            
+                <ul>
+                    <li><a style="position: absolute;top: 30%;font-size: 30px;left: 3%; " href="index.html">Home</a></li>
+                    <li><a style="position: absolute;top: 40%;font-size: 30px;left: 3%; " href="contakt.html">Contakt</a></li>
+                    <li><a style="position: absolute;top: 50%;font-size: 30px;left: 3%; " href="">Project</a></li>
+                    <li  onclick="closeFunction()" id="closebtn" ><a class="closebtn" href="">&times;</a></li>
+                </ul>
+                
+            
+           
+          </ul>
+        </div>
+        <script type="text/javascript">
+          function openFunction(){
+           document.getElementById("menu").style.width="300px";
+          }
+         function closeFunction(){
+          document.getElementById("menu").style.width="0px";
+          document.getElementById("mainbox").style.marginLeft="0px";
+          document.getElementById("mainbox").innerHTML="&#9776; Open";
+         }
+         </script>
+          <div class="side">
+          
+            <div class="logo">
+                <img src="me.jpg" style="opacity: 100%;" width="100px"height="100px" alt="" class="logo1">
+            </div>
+            <nav>
+                <ul>
+                    <li><a style="position: absolute;top: 40%;font-size: 30px;left: 15%; " href="index.html">Home</a></li>
+                    <li><a style="position: absolute;top: 50%;font-size: 30px;left: 15%; " href="contakt.html">Contakt</a></li>
+                    <li><a style="position: absolute;top: 60%;font-size: 30px;left: 15%; " href="https://download1581.mediafire.com/uc5ypxskd5lg/m6b3t5y2d2j57zl/cos2.jpg">Projects</a></li>
+                </ul>
+                
+            </nav>
+            
+        </div>
+        <div class="container">
+       <div class="row">
+           <div class="col-md-6">
+            <div class="conbio">
+                <ul>
+                <li>  <a href="">Email</a></li>
+                <li> <a href="">Linkedin</a></li>
+                <li> <a href="">FaceBook</a></li>
+                <li> <a href="">Instagram</a></li>
+            </ul>
+        </div>    
+    </div>
+    <div class="col-md-6">
+      
+
+        </div>
+
+    
+  
+</body>
+</html>

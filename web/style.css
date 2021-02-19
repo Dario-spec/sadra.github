@@ -1,0 +1,505 @@
+
+.head{
+    background-image: url("bac220.jpg");
+    
+    transition-property: all;
+    transition-duration: 2s;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.side{
+    transition-property: all;
+        transition-duration: 2s;
+    background-color: black;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.side ul li{
+    list-style: none;
+}
+.side ul li a{
+    transition-property: all;
+        transition-duration: 0.3s;
+    text-decoration: none;
+    color: lightblue;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo1{
+    transition-property: all;
+        transition-duration: 2s;
+    position: absolute;
+    top: 10%;
+    left:17%;
+    border: solid red 3px;
+    border-radius: 50%;
+}
+@media(max-width:952px){
+    .side{
+        display: none;
+    }
+    
+}
+@media(max-width:1030px){
+.side{
+    display: none;
+}
+.text{
+display: none;
+}
+}
+.text1 h1{
+    transition-property: all;
+        transition-duration: 2s;
+    font-size: 25px;
+    display: none;
+}
+.text1{
+  
+    display: none;
+}
+@media(max-width:952px){
+.text1{
+    display: block;
+    transition-property: all;
+        transition-duration: 2s;
+}
+    .text1 h1{
+        display: block;
+        transition-property: all;
+        transition-duration: 2s;
+        color: #fff;
+    }
+}
+@media(max-width:1030px){
+    .text1{
+        display: block;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+        .text1 h1{
+            display: block;
+            transition-property: all;
+        transition-duration: 2s;
+        }
+    }
+    body{
+        background-color: #1e1e1e;
+    }
+    .htmlban{
+        border: solid 3px orange;
+        background-color: orange;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .jsban{
+        transition-property: all;
+        transition-duration: 2s;
+        border: solid 3px yellow;
+        background-color: yellow;
+    }
+    .csban{
+        transition-property: all;
+        transition-duration: 2s;
+        border: solid 3px lightblue;
+        background-color: lightblue;
+    }
+    
+
+    #da{
+    font-size: 20vh;
+    color: transparent;
+    -webkit-text-stroke: 0.3 transparent;
+    text-transform: uppercase;
+    
+    
+    }
+    #da::before{
+        content: attr(data-text);
+       position: absolute;
+       top: 27%;
+       left: 28%;
+       width: 0%;
+       font-family: 'Acme', sans-serif;
+       height: 100%;
+       color: red;
+       text-shadow: 0   20px black;
+       -webkit-text-stroke: 0vw #222;
+       border-right: 2px solid transparent; 
+overflow: hidden;
+animation: animate 4s linear infinite;
+    }
+    @keyframes animate
+    {
+0%
+{
+    width: 0;
+}
+100%
+{
+    width: 32%;
+}
+    }
+    @media(max-width:995px){
+        .me1{
+            width: 280px;
+            height: 280px;
+            top: 10%;
+        }
+    }
+    #st{
+        font-size: 20vh;
+        color: transparent;
+        -webkit-text-stroke: 0.3 transparent;
+        text-transform: uppercase;
+        
+        
+        }
+        #st::before{
+            content: attr(data-text);
+           position: absolute;
+           text-shadow: 0   20px black;
+           top: 50%;
+           left: 18%;
+           width: 0%;
+           height: 100%;
+           color: green;
+           font-family: 'Acme', sans-serif;
+           -webkit-text-stroke: 0vw #222;
+           border-right: 2px solid transparent;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+        }
+        @keyframes animate
+        {
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 60%;
+    }
+        }
+        
+      
+ul li a:hover{
+    font-size: 44px;
+    color: red;
+}
+            
+    @media(max-width:1030px){
+        #da{
+            display: none;
+        }
+        #st{
+            display: none;
+        }
+    }
+    p{
+        display: block;
+        text-align: center;
+        color: #000;
+    }
+    .about{
+        padding: 3%;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 20px #fff;
+    }
+    @media(max-width:1030px){
+        .about{
+            position: absolute;
+            top: 110%;
+            left: 0%;
+        }
+    }
+    
+    #stm{
+     
+        font-size: 6.5vh;
+        color: transparent;
+        -webkit-text-stroke: 0.3 transparent;
+        text-transform: uppercase;
+        
+        
+        }
+        .about{
+            text-align: center;
+        }
+        #stm::before{
+        
+            content: attr(data-text);
+           position: absolute;
+           text-shadow: 0   20px black;
+           top: 20%;
+           left: 20%;
+           width: 0%;
+           height: 100%;
+           color: rgb(252, 6, 6);
+           font-family: 'Acme', sans-serif;
+           -webkit-text-stroke: 0vw #222;
+           border-right: 2px solid transparent;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+        }
+        @keyframes animate
+        {
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 60%;
+    }
+        }
+        
+
+        #dam{
+           
+            font-size: 7vh;
+            color: transparent;
+            -webkit-text-stroke: 0.3 transparent;
+            text-transform: uppercase;
+            
+            
+            }
+            #dam::before{
+               
+                content: attr(data-text);
+               position: absolute;
+               text-shadow: 0   20px black;
+               top: 30%;
+               left: 20%;
+               width: 0%;
+               height: 100%;
+               color: green;
+               font-family: 'Acme', sans-serif;
+               -webkit-text-stroke: 0vw #222;
+               border-right: 2px solid transparent;
+        overflow: hidden;
+        animation: animate 4s linear infinite;
+            }
+            @keyframes animate
+            {
+        0%
+        {
+            width: 0;
+        }
+        100%
+        {
+            width: 90%;
+        }
+            }
+          .me1{
+            transition-property: all;
+            transition-duration: 2s;
+        position: absolute;
+        top: 50%;
+        left:30%;
+        border: solid red 3px;
+        border-radius: 50%;
+          } 
+          @media(max-width:952px){
+              .me1{
+                position: absolute;
+                top: 50%;
+                left:33%;
+              }
+          }
+          @media(max-width:480px){
+            .me1{
+              position: absolute;
+              top: 50%;
+              left:23%;
+            }
+        }
+        @media(max-width:1450px){
+            #da{
+                font-size: 5vh;
+                    left: 20%;
+            }
+                #st{
+                    font-size: 5vh;
+                    left: 14%;
+                }
+
+            }
+            @media(max-width:825px){
+                #dam{
+                    font-size: 5vh;
+                        left: 20%;
+                }
+                    #stm{
+                        font-size: 5vh;
+                        left: 14%;
+                    }
+    
+                }
+                @media(max-width:2350px){
+                    #da{
+                        font-size: 10vh;
+                            left: 10%;
+                    }
+                        #st{
+                            font-size: 10vh;
+                            left: 10%;
+                        }
+        
+                    }
+                    @media(max-width:220px){
+                        #dam{
+                            font-size: 4vh;
+                                left: 0%;
+                        }
+                            #stm{
+                                font-size: 4vh;
+                                left: 0%;
+                            }
+            
+                        }
+                        @media(max-width:1030px){
+                       .me1{
+                           top: 44%;
+                           left: 40%;
+                           width: 200px;
+                           height: 200px;
+                       }
+                
+                            }
+                            @media(max-width:840px){
+                                .me1{
+                                    left: 31%;
+                                    width: 270px;
+                                    height: 270px;
+                                }
+                         
+                                     }
+                                     @media(max-width:665px){
+                                        .me1{
+                                            left: 32%;
+                                            width: 200px;
+                                            height: 200px;
+                                        }
+                                 
+                                             }
+                                             @media(max-width:580px){
+                                                #dam{
+                                                    left: 5%;
+font-size: 4vh;
+                                                }
+                                                #stm{
+                                                    left: 5%;
+                                                    font-size: 4vh;
+                                                }
+                                         
+                                                     }
+                                                     @media(max-width:380px){
+                                                        .me1{
+                                                            left: 30%;
+                                                            width: 150px;
+                                                            height: 150px;
+                                                        }
+                                                 
+                                                             }
+                                                             @media(max-width:210px){
+                                                                .me1{
+                                                                    left: 20%;
+                                                                    width: 100px;
+                                                                    height: 100px;
+                                                                }
+                                                         
+                                                                     }
+                                                                     @media(max-width:210px){
+                                                                        #dam{
+                                                                            left: 0%;
+                                                                            font-size: 2vh;
+                                                                        top: 5%;
+                                                                        }
+                                                                        #stm{
+                                                                            top: 5%;
+                                                                            font-size: 2vh;
+                                                                            left: 0%;
+                                                                        }
+                                                                 
+                                                                             }
+                                                                             
+                           .bacq{
+                               background-color: #f1f1f1;
+                               padding: 10px;
+                               border-radius: 5px;
+                               box-shadow: 0 0  20px white;
+                           }
+                           @media(max-width:952px){
+                               #skills{
+                                   margin-top: 420px;
+                               }
+                           }
+                           @media(max-width:1030px){
+                            #skills{
+                                margin-top: 380px;
+                            }
+                        }
+                        @media(max-width:300px){
+                            #skills{
+                                margin-top: 420px;
+                            }
+                        }
+                        @media(max-width:285px){
+                            #skills{
+                                margin-top: 550px;
+                            }
+                        }
+                        @media(max-width:250px){
+                            #skills{
+                                margin-top: 600px;
+                            }
+                        }
+                        @media(max-width:195px){
+                            #skills{
+                                margin-top: 660px;
+                            }
+                        }
+                        @media(max-width:190px){
+                            #skills{
+                                margin-top: 740px;
+                            }
+                        }
+                        @media(max-width:167px){
+                            #skills{
+                                margin-top: 900px;
+                            }
+                        }
+                      footer{
+                          background-color: #222;
+                          width: 100%;
+                          height: 100%;
+                      }
+/* contakt page */
+
+
+.conhead{
+    background-image: url("phone1.jpg");
+    height: 100vh;
+    width: 100%;
+}
+
+.conbio ul li {
+display: block;
+margin-top: 0px;
+margin-left: 300px;
+}
+.conbio ul li a{
+    font-size: 30px;
+}
+.conin{
+background-color: black;
+}
